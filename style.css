@@ -13,7 +13,7 @@
   border:none !important;
   outline: none !important;
   text-decoration: none !important;
-  text-transform: capitalize;
+  text-transform: inherit;
   font-weight: 400;
   transition: all .2s linear;
 }
@@ -90,8 +90,8 @@ header{
   padding:2rem 1rem;
   z-index: 1000;
 }
-header .container #VAARUSH{
-	width: 50px;
+header .container #VAARUSHHOSPITAL{
+	width: 40px;
 }
 
 
@@ -146,94 +146,87 @@ header .fa-bars{
   display: none;
 }
 
-.home .content h3{
+.Home .content h3{
   font-size: 4rem;
   color:var(--black);
 }
 
-.home .content h3 {
+.Home .content h3 {
   font-size: 4rem;
   color:var(--black);
 }
 
-.about{
+.About{
   background:#eee;
 }
 
-.about .content .box{
+.About .content .box{
   margin:3rem 0;
 }
 
-.about .content .box h3{
+.About .content .box h3{
   font-size: 2.5rem;
   color:var(--black);
 }
 
-.about .content .box h3 i{
+.About .content .box h3 i{
   padding: 0 1rem;
   color:var(--green);
 }
 
-
-
-
-
-
-
-
-.about .content .box p{
+.About .content .box p{
   font-size: 1.7rem;
   padding-left: 6rem;
   color:#666;
 }
 
-.facility{
+.Facility{
   min-height: 100vh;
 }
 
-.facility .box-container{
+.Facility .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 3rem;
 }
 
-.facility .box-container .box{
+.Facility .box-container .box{
   height:20rem;
   width:30rem;
   margin:.3rem;
   overflow: hidden;
 }
 
-.facility .box-container .box img{
+.Facility .box-container .box img{
   height:100%;
   width:100%;
   object-fit: cover;
 }
 
-.facility .box-container .box:hover img{
+.Facility .box-container .box:hover img{
   transform: scale(1.3);
 }
 
-.review{
+.Review{
   background:url(../images/review-bg.jpg), linear-gradient(var(--black),var(--black)) no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
 }
 
-.review .heading{
+.Review .heading{
   color:#fff;
 }
 
-.review .box-container{
+.Review .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 5rem;
 }
 
-.review .box-container .box{
+.Review .box-container .box{
   background:#fff;
   width:30rem;
   margin:5rem 1rem;
@@ -241,7 +234,7 @@ header .fa-bars{
   position: relative;
 }
 
-.review .box-container .box img{
+.Review .box-container .box img{
   position: absolute;
   bottom: -7.5rem; left: -1rem;
   height:5rem;
@@ -250,24 +243,24 @@ header .fa-bars{
   object-fit: cover;
 }
 
-.review .box-container .box p{
+.Review .box-container .box p{
   font-size: 1.4rem;
   color:var(--black);
 }
 
-.review .box-container .box h3{
+.Review .box-container .box h3{
   text-align: end;
   color:var(--green);
 }
 
-.review .box-container .box span{
+.Review .box-container .box span{
   text-align: end;
   color:var(--black);
   display: block;
   font-size: 1.5rem;
 }
 
-.review .box-container .box::before{
+.Review .box-container .box::before{
   content: '';
   position: absolute;
   bottom: -1rem; left:.4rem;
@@ -305,25 +298,25 @@ header .fa-bars{
   color:#666;
 }
 
-.contact{
+.Contact{
   background:var(--black);
 }
 
-.contact .heading{
+.Contact .heading{
   color:#fff;
 }
 
-.contact form{
+.Contact form{
   text-align: center;
 }
 
-.contact form .inputBox{
+.Contact form .inputBox{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.contact form .inputBox input, select{
+.Contact form .inputBox input, select{
   height: 4rem;
   width:49%;
   padding:0 1rem;
@@ -332,7 +325,7 @@ header .fa-bars{
   color:var(--black);
 }
 
-.contact form textarea{
+.Contact form textarea{
   height:20rem;
   resize: none;
   padding:1rem;
@@ -340,21 +333,21 @@ header .fa-bars{
   width: 100%;
 }
 
-.contact form input[type="submit"]{
+.Contact form input[type="submit"]{
   width:20rem;
 }
 
-.contact form input[type="submit"]:hover{
+.Contact form input[type="submit"]:hover{
   background:var(--black);
 }
 
-.post .box-container{
+.Post .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.post .box-container .box{
+.Post .box-container .box{
   width:30rem;
   margin:2rem 1rem;
   overflow: hidden;
@@ -362,30 +355,30 @@ header .fa-bars{
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-.post .box-container .box img{
+.Post .box-container .box img{
   height:20rem;
   width: 100%;
   object-fit: cover;
 }
 
-.post .box-container .box .content{
+.Post .box-container .box .content{
   padding:0 1.5rem;
 }
 
-.post .box-container .box .content span{
+.Post .box-container .box .content span{
   color:#666;
   font-size: 1.5rem;
   display: block;
   padding:1rem 0;
 }
 
-.post .box-container .box .content h3{
+.Post .box-container .box .content h3{
   font-size: 2rem;
   color:var(--black);
 }
 
 
-.post .box-container .box .content p{
+.Post .box-container .box .content p{
   font-size: 1.3rem;
   color:var(--black);
 }
