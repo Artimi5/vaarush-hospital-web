@@ -146,87 +146,94 @@ header .fa-bars{
   display: none;
 }
 
-.Home .content h3{
+.home .content h3{
   font-size: 4rem;
   color:var(--black);
 }
 
-.Home .content h3 {
+.home .content h3 {
   font-size: 4rem;
   color:var(--black);
 }
 
-.About{
+.about{
   background:#eee;
 }
 
-.About .content .box{
+.about .content .box{
   margin:3rem 0;
 }
 
-.About .content .box h3{
+.about .content .box h3{
   font-size: 2.5rem;
   color:var(--black);
 }
 
-.About .content .box h3 i{
+.about .content .box h3 i{
   padding: 0 1rem;
   color:var(--green);
 }
 
-.About .content .box p{
+
+
+
+
+
+
+
+.about .content .box p{
   font-size: 1.7rem;
   padding-left: 6rem;
   color:#666;
 }
 
-.Facility{
+.facility{
   min-height: 100vh;
 }
 
-.Facility .box-container{
+.facility .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 3rem;
 }
 
-.Facility .box-container .box{
+.facility .box-container .box{
   height:20rem;
   width:30rem;
   margin:.3rem;
   overflow: hidden;
 }
 
-.Facility .box-container .box img{
+.facility .box-container .box img{
   height:100%;
   width:100%;
   object-fit: cover;
 }
 
-.Facility .box-container .box:hover img{
+.facility .box-container .box:hover img{
   transform: scale(1.3);
 }
 
-.Review{
+.review{
   background:url(../images/review-bg.jpg), linear-gradient(var(--black),var(--black)) no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
 }
 
-.Review .heading{
+.review .heading{
   color:#fff;
 }
 
-.Review .box-container{
+.review .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 5rem;
 }
 
-.Review .box-container .box{
+.review .box-container .box{
   background:#fff;
   width:30rem;
   margin:5rem 1rem;
@@ -234,7 +241,7 @@ header .fa-bars{
   position: relative;
 }
 
-.Review .box-container .box img{
+.review .box-container .box img{
   position: absolute;
   bottom: -7.5rem; left: -1rem;
   height:5rem;
@@ -243,24 +250,24 @@ header .fa-bars{
   object-fit: cover;
 }
 
-.Review .box-container .box p{
+.review .box-container .box p{
   font-size: 1.4rem;
   color:var(--black);
 }
 
-.Review .box-container .box h3{
+.review .box-container .box h3{
   text-align: end;
   color:var(--green);
 }
 
-.Review .box-container .box span{
+.review .box-container .box span{
   text-align: end;
   color:var(--black);
   display: block;
   font-size: 1.5rem;
 }
 
-.Review .box-container .box::before{
+.review .box-container .box::before{
   content: '';
   position: absolute;
   bottom: -1rem; left:.4rem;
@@ -298,25 +305,25 @@ header .fa-bars{
   color:#666;
 }
 
-.Contact{
+.contact{
   background:var(--black);
 }
 
-.Contact .heading{
+.contact .heading{
   color:#fff;
 }
 
-.Contact form{
+.contact form{
   text-align: center;
 }
 
-.Contact form .inputBox{
+.contact form .inputBox{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.Contact form .inputBox input, select{
+.contact form .inputBox input, select{
   height: 4rem;
   width:49%;
   padding:0 1rem;
@@ -325,7 +332,7 @@ header .fa-bars{
   color:var(--black);
 }
 
-.Contact form textarea{
+.contact form textarea{
   height:20rem;
   resize: none;
   padding:1rem;
@@ -333,21 +340,21 @@ header .fa-bars{
   width: 100%;
 }
 
-.Contact form input[type="submit"]{
+.contact form input[type="submit"]{
   width:20rem;
 }
 
-.Contact form input[type="submit"]:hover{
+.contact form input[type="submit"]:hover{
   background:var(--black);
 }
 
-.Post .box-container{
+.post .box-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.Post .box-container .box{
+.post .box-container .box{
   width:30rem;
   margin:2rem 1rem;
   overflow: hidden;
@@ -355,30 +362,30 @@ header .fa-bars{
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-.Post .box-container .box img{
+.post .box-container .box img{
   height:20rem;
   width: 100%;
   object-fit: cover;
 }
 
-.Post .box-container .box .content{
+.post .box-container .box .content{
   padding:0 1.5rem;
 }
 
-.Post .box-container .box .content span{
+.post .box-container .box .content span{
   color:#666;
   font-size: 1.5rem;
   display: block;
   padding:1rem 0;
 }
 
-.Post .box-container .box .content h3{
+.post .box-container .box .content h3{
   font-size: 2rem;
   color:var(--black);
 }
 
 
-.Post .box-container .box .content p{
+.post .box-container .box .content p{
   font-size: 1.3rem;
   color:var(--black);
 }
